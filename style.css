@@ -1,0 +1,39 @@
+
+#text{
+    border-radius: 7px;
+    text-align: center;
+    margin:10px auto;
+    width: 90%;
+    padding: 10px;
+    background-color: aliceblue;
+}
+.container{
+    width: 15%;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid rosybrown;
+    border-radius: 10px;
+    background-color: rgb(248, 217, 217);
+    box-shadow: -1px 2px 7px rgb(240, 148, 183);
+    text-align: center;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 7px;
+}
+.result{
+    grid-column: 1/5;
+}
+button{
+    background-color: rgb(104, 93, 93);
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    padding: 3px;
+
+}
+
+button:hover{
+    background-color: rgb(172, 217, 243);
+    color: black;
+}
